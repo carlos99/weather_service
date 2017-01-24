@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 
 #New Gems
 gem "figaro"
+gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
