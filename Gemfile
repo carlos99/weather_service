@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.5'
 gem "figaro"
 gem 'devise'
 gem 'jwt'
+gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
