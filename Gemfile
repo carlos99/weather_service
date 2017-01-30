@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.5'
 
 #New Gems
 gem "figaro"
+gem 'devise'
+gem 'jwt'
 
 group :development, :test do
   gem 'byebug', platform: :mri
